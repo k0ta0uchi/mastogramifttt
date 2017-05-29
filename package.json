@@ -25,6 +25,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "mastodon": "^1.2.0",
-    "mastodon-api": "^1.3.0"
+    "mastodon-api": "^1.3.0",
+    "readline-sync": "^1.4.7"
   }
 }
