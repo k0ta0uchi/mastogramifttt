@@ -34,7 +34,7 @@ console.log('starting server at "127.0.0.1:1337".');
 app.listen(1337);
 
 // just for test
-app.get('/', (req, res) => {
+app.get('/test', (req, res) => {
     res.send('test ok');
 });
 
