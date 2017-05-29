@@ -1,0 +1,30 @@
+{
+  "name": "mastogramifttt",
+  "version": "0.0.1",
+  "description": "Instagram and Mastodon bypass for IFTTT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k0ta0uchi/mastogramifttt.git"
+  },
+  "keywords": [
+    "instagram",
+    "ifttt",
+    "mastodon"
+  ],
+  "author": "k0ta0uchi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/k0ta0uchi/mastogramifttt/issues"
+  },
+  "homepage": "https://github.com/k0ta0uchi/mastogramifttt#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mastodon": "^1.2.0",
+    "mastodon-api": "^1.3.0"
+  }
+}
