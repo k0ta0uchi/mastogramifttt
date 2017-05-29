@@ -33,6 +33,12 @@ app.use(bodyParser.json());
 console.log('starting server at "127.0.0.1:1337".');
 app.listen(1337);
 
+// just for test
+app.get('/', (req, res) => {
+    res.send('test ok');
+});
+
+// post url
 app.post('/', (req, res) => {
     var url = req.body.imageUrl;
     var status = req.body.status;
