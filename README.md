@@ -1,4 +1,4 @@
-# MastGramIFTTT
+# MastoGramIFTTT
 
 Instagram and Mastodon bypass for IFTTT.
 
