@@ -6,15 +6,6 @@
     let clientId;
     let clientSecret;
 
-    // new Promise((resolve) => {
-    //     rl.question('Please enter the web address of instance: ', baseUrl => {
-    //         if(baseUrl.indexOf('https://') == -1) {
-    //             baseUrl = 'https://' + baseUrl;
-    //         }
-    //         resolve(baseUrl);
-    //         rl.close();
-    //     })
-    // })
     var baseUrl = rl.question('Please enter the web address of instance:');
     if(baseUrl.indexOf('https://') == -1) {
         baseUrl = 'https://' + baseUrl;
